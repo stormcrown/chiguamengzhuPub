@@ -1,0 +1,31 @@
+/* 让页面主体宽度 80%，居中显示 */
+.book .book-body  {
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+/* 让内容区域铺满，不留空白 */
+.book .book-body .page-wrapper {
+    width: 100% !important;
+}
+
+/* 右侧内容区宽度 100% */
+.book .book-body .body-inner {
+    width: 100% !important;
+}
+.markdown-section{
+    width: 100% !important;
+}
+
+/* 防止小屏幕变形 */
+@media (max-width: 1400px) {
+    .book .book-body {
+        max-width: 90% !important;
+    }
+}
+@media (max-width: 768px) {
+    .book .book-body {
+        max-width: 95% !important;
+    }
+}

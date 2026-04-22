@@ -1,0 +1,22 @@
+{
+  "root": "./docs",
+  "charset": "utf-8",
+  "title": "名齐日月",
+  "author": "吃瓜盟主",
+  "publisher": "祭天之人",
+  "language": "zh",
+  "styles": {
+    "website": "asset/css/websiteCustom.css",
+    "epub": "asset/css//epubCustom.css",
+    "ebook": "styles/ebook.css",
+    "pdf": "styles/pdf.css",
+    "mobi": "styles/mobi.css"
+
+  },
+  "plugins": [
+    "-search",
+    "-lunr"
+
+  ]
+
+}

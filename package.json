@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "clean": "honkit clean",
+    "build": "honkit build",
+    "serve": "honkit serve",
+    "epub": "honkit epub ./ ./名齐日月.epub"
+  },
+  "devDependencies": {
+    "honkit": "^6.1.7"
+  },
+  "dependencies": {
+    "@honkit/asciidoc": "^6.1.7"
+  }
+}
