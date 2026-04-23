@@ -1,10 +1,23 @@
 {
   "root": "./docs",
   "charset": "utf-8",
-  "title": "名齐日月-抢先预览20260423",
+  "title": "名齐日月 抢先预览",
   "author": "吃瓜盟主",
   "publisher": "祭天之人",
   "language": "zh",
+  "ebook": {
+    "toc": {
+      "maxLevel": 3,
+      "minLevel": 1,
+      "title": "目录"
+    },
+    "epub": {
+      "version": 2,
+      "tocDepth": 3,
+      "includeToc": true,
+      "epub2toc": true
+    }
+  },
   "styles": {
     "website": "asset/css/websiteCustom.css",
     "epub": "asset/css//epubCustom.css",
