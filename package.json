@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "clean": "honkit clean",
     "build": "honkit build",
     "serve": "honkit serve",
-    "epub": "honkit epub ./ ./名齐日月.epub"
+    "epub": "honkit epub ./ ./名齐日月.epub",
+    "epub2": "honkit epub ./ 名齐日月_%date:~0,4%-%date:~5,2%-%date:~8,2%.epub"
   },
   "devDependencies": {
     "honkit": "^6.1.7"

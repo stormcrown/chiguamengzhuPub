@@ -1,31 +1,178 @@
-/* 让页面主体宽度 80%，居中显示 */
-.book .book-body  {
-    max-width: 100% !important;
-    margin: 0 auto !important;
-    float: none !important;
+
+/* ======================================
+   全局美化：字体、平滑滚动、基础配色
+====================================== */
+* {
+    box-sizing: border-box;
 }
 
-/* 让内容区域铺满，不留空白 */
-.book .book-body .page-wrapper {
-    width: 100% !important;
+body {
+    font-family:
+            -apple-system, BlinkMacSystemFont,
+            "Segoe UI", "Roboto", "Helvetica Neue",
+            "Microsoft YaHei", sans-serif;
+    line-height: 1.7;
+    font-size: 16px;
+    color: #333;
+    background: #fafbfc;
+    scroll-behavior: smooth;
+}
+/* 平滑动画 */
+.book-summary, .book-body, .page-inner {
+    transition: all 0.25s ease;
+}
+/* 内容容器最大宽度，更美观 */
+.page-inner {
+    max-width: 80% !important;
+    margin: 0 auto;
+    border-radius: 12px;
 }
 
-/* 右侧内容区宽度 100% */
-.book .book-body .body-inner {
-    width: 100% !important;
-}
-.markdown-section{
-    width: 100% !important;
+/* ======================================
+   标题美化：清晰、优雅、有呼吸感
+====================================== */
+h1, h2, h3, h4, h5 {
+    margin-top: 1.6em;
+    margin-bottom: 0.8em;
+    line-height: 1.4;
 }
 
-/* 防止小屏幕变形 */
-@media (max-width: 1400px) {
-    .book .book-body {
-        max-width: 90% !important;
-    }
+h1 {
+    border-left: 5px solid #4299e1;
+    padding-left: 14px;
 }
+
+h2 {
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 8px;
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+/* ======================================
+   段落、列表、链接美化
+====================================== */
+p {
+
+    margin: 1em 0;
+}
+
+ul, ol {
+    padding-left: 28px;
+    margin: 1em 0;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+a {
+    color: #4299e1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ======================================
+   代码块美化：护眼、柔和、现代
+====================================== */
+pre, code {
+    font-family: "JetBrains Mono", Monaco, Consolas, monospace !important;
+    font-size: 14px;
+}
+
+pre {
+    background-color: #f7f8fa !important;
+    border-radius: 10px !important;
+    border: none !important;
+    box-shadow: inset 0 0 4px rgba(0,0,0,0.04);
+    padding: 18px 20px !important;
+    margin: 1.4em 0 !important;
+}
+
+code {
+
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+/* ======================================
+   左侧导航栏美化
+====================================== */
+.book-summary ul.summary li a {
+    padding: 10px 20px !important;
+    color: #555;
+}
+
+.book-summary ul.summary li.active > a {
+    color: #4299e1 !important;
+    font-weight: 600;
+    background: #f0f7ff !important;
+    border-radius: 8px;
+}
+
+.book-summary ul.summary li a:hover {
+    background: #f7f8fa;
+    border-radius: 8px;
+}
+
+/* ======================================
+   搜索框美化
+====================================== */
+#book-search-input {
+    background: #f7f8fa !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 10px 15px !important;
+    margin: 15px !important;
+    box-shadow: none !important;
+}
+
+/* ======================================
+   图片美化
+====================================== */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 1.2em 0;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+/* ======================================
+   引用块美化
+====================================== */
+blockquote {
+    border-left: 4px solid #4299e1;
+    background: #f7faff;
+    margin: 1.4em 0;
+    padding: 14px 20px;
+    border-radius: 0 10px 10px 0;
+    color: #444;
+}
+
+/* ======================================
+   移动端自适应
+====================================== */
 @media (max-width: 768px) {
-    .book .book-body {
-        max-width: 95% !important;
+    .book {
+        flex-direction: column;
+    }
+    .book-summary {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .book-body {
+        width: 100% !important;
+    }
+    .page-inner {
+        padding: 25px 20px !important;
     }
 }

@@ -1,92 +1,135 @@
 const fs = require('fs');
 const path = require('path');
-const { promisify } = require('util');
 
-const readdir = promisify(fs.readdir);
-const writeFile = promisify(fs.writeFile);
+// ===================== 核心配置 =====================
+// 你的文档根目录（所有 md 放在这里）
+const MD_ROOT_DIR = path.join('.', 'docs');
 
-// ===================== 配置 =====================
-const ROOT = './docs/';
-const OUTPUT_FILE = path.join(ROOT, 'SUMMARY.md');
+// SUMMARY.md 生成位置
+const SUMMARY_OUTPUT_PATH = path.join('.', 'docs', 'SUMMARY.md');
 
-// 忽略的目录 & 文件
-const IGNORE_DIRS = ['_book', 'node_modules', '.git', 'clean'];
-const IGNORE_FILES = ['SUMMARY.md', 'README.md', 'GLOSSARY.md'];
-// ===============================================
+// 忽略项
+const IGNORE_FILES = ['SUMMARY.md', 'node_modules', '.git'];
+// ====================================================
 
-// 格式化标题
-function getTitle(name) {
-    return name.replace(/\.md$/i, '').replace(/[ \d@,，“”《》？：；——【】！]/g, '').replace(/['@好好学习天天向上']/g, '').replace(/['≠']/g,'不等于')  ;;
+/**
+ * 清理标题：去掉 # 和首尾空格
+ */
+function cleanTitle(line) {
+    return line.replace(/^#+\s*/, '').trim();
 }
 
-// 稳定排序：数字 + 字母 自然排序（不会乱）
-function stableSort(entries) {
-    return entries.sort((a, b) => {
-        // 文件夹永远排前面
-        if (a.isDirectory() && !b.isDirectory()) return -1;
-        if (!a.isDirectory() && b.isDirectory()) return 1;
+/**
+ * 读取文件第一行作为标题
+ */
+function getFileTitle(filePath) {
+    return new Promise((resolve, reject) => {
+        const stream = fs.createReadStream(filePath, 'utf8');
+        let title = '';
 
-        // 统一小写 + 自然排序（保证每次顺序一样）
-        return a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' });
+        stream.on('data', (chunk) => {
+            const lines = chunk.split('\n');
+            title = cleanTitle(lines[0] || '未命名');
+            stream.destroy();
+            resolve(title);
+        });
+
+        stream.on('error', () => resolve('未命名'));
     });
 }
 
-// 递归扫描
-async function scanDir(currentDir, indent = '') {
-    let lines = [];
-    const entries = await readdir(currentDir, { withFileTypes: true });
+/**
+ * 递归遍历目录，自动识别 README.md
+ */
+function traverseDir(dir) {
+    let results = [];
+    const files = fs.readdirSync(dir);
 
-    // ========== 核心：稳定排序 ==========
-    const sortedEntries = stableSort(entries);
+    // 自然排序
+    files.sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
 
-    for (const entry of sortedEntries) {
-        const fullPath = path.join(currentDir, entry.name);
+    // 检查当前目录是否有 README.md
+    const hasReadme = files.includes('README.md');
+    const readmeRelPath = hasReadme ? path.relative(MD_ROOT_DIR, path.join(dir, 'README.md')).replace(/\\/g, '/') : null;
 
-        // 跳过忽略目录
-        if (entry.isDirectory()) {
-            const lowerName = entry.name.toLowerCase();
-            if (IGNORE_DIRS.some(d => lowerName.includes(d))) continue;
+    let childItems = [];
 
-            // 检查是否有 README.md
-            const subFiles = await readdir(fullPath);
-            const hasReadme = subFiles.some(f => f.toLowerCase() === 'readme.md');
-            const relPath = path.relative(ROOT, fullPath).replace(/\\/g, '/');
-            const title = getTitle(entry.name);
+    for (const file of files) {
+        const fullPath = path.join(dir, file);
+        const stat = fs.statSync(fullPath);
 
-            // 分卷（你要的格式）
-            if (hasReadme) {
-                lines.push(`${indent}* [${title}](${relPath}/README.md)`);
+        // 跳过忽略项 + 跳过 README（已经单独处理）
+        if (IGNORE_FILES.includes(file) || file === 'README.md') continue;
+
+        if (stat.isDirectory()) {
+            const sub = traverseDir(fullPath);
+            childItems.push({ type: 'dir', name: file, ...sub });
+        } else if (file.toLowerCase().endsWith('.md')) {
+            const relPath = path.relative(MD_ROOT_DIR, fullPath).replace(/\\/g, '/');
+            childItems.push({ type: 'file', path: fullPath, relPath });
+        }
+    }
+
+    return { hasReadme, readmeRelPath, children: childItems };
+}
+
+/**
+ * 递归生成 SUMMARY 内容
+ */
+async function buildSummary(tree, indent = 0) {
+    const lines = [];
+    const prefix = '  '.repeat(indent);
+
+    for (const item of tree.children) {
+        if (item.type === 'file') {
+            // 文件：正常生成
+            const title = await getFileTitle(item.path);
+            lines.push(`${prefix}- [${title}](${item.relPath})`);
+        }
+        else if (item.type === 'dir') {
+            // 目录：判断是否有 README
+            if (item.hasReadme) {
+                // 有 README → 目录作为链接
+                const dirTitle = await getFileTitle(path.join(MD_ROOT_DIR, item.readmeRelPath));
+                lines.push(`${prefix}- [${dirTitle}](${item.readmeRelPath})`);
             } else {
-                lines.push(`${indent}* ${title}`);
+                // 无 README → 普通目录分组
+                lines.push(`${prefix}- **${item.name}**`);
             }
 
-            // 递归子目录
-            const subLines = await scanDir(fullPath, indent + '    ');
+            // 子项目缩进 +1
+            const subLines = await buildSummary(item, indent + 1);
             lines.push(...subLines);
-            continue;
         }
-
-        // 只处理 md，跳过 README / SUMMARY
-        const lowName = entry.name.toLowerCase();
-        if (!lowName.endsWith('.md')) continue;
-        if (IGNORE_FILES.includes(lowName)) continue;
-
-        const relPath = path.relative(ROOT, fullPath).replace(/\\/g, '/');
-        const title = getTitle(entry.name);
-        lines.push(`${indent}* [${title}](${relPath})`);
     }
 
     return lines;
 }
 
-// 生成 SUMMARY
+/**
+ * 生成 SUMMARY.md
+ */
 async function generateSummary() {
-    console.log('🔍 正在生成 SUMMARY.md（稳定排序）...');
-    const lines = await scanDir(ROOT);
-    const content = `# Summary\n\n${lines.join('\n')}`;
+    try {
+        console.log('🔍 扫描目录：', MD_ROOT_DIR);
 
-    await writeFile(OUTPUT_FILE, content, 'utf8');
-    console.log('✅ SUMMARY.md 生成成功！顺序永远固定！');
+        const rootTree = traverseDir(MD_ROOT_DIR);
+        const summaryLines = await buildSummary(rootTree);
+
+        const content = `# Summary
+
+- [首页](README.md)
+
+${summaryLines.join('\n')}
+`;
+
+        fs.writeFileSync(SUMMARY_OUTPUT_PATH, content, 'utf8');
+        console.log('✅ 生成成功！');
+        console.log('📄 路径：', SUMMARY_OUTPUT_PATH);
+
+    } catch (err) {
+        console.error('❌ 生成失败：', err);
+    }
 }
 
-generateSummary().catch(err => console.error('❌ 错误：', err));
+generateSummary();

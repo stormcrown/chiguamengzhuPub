@@ -5,8 +5,9 @@
 - 声音剥离
   - ffmpeg
 
-- 文本文件
+- 语音识别
   - [软件 AsrTools]( https://github.com/WEIFENG2333/AsrTools )
 
-- 文本整理 Deepseek
+- 文本整理 
+- Deepseek
 

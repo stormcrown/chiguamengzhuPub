@@ -17,6 +17,7 @@ function cleanFileName(fileName) {
 
     // 核心：替换所有 非英文/数字/-/_ 的字符
     const cleanName = name.replace(/[ @,，“”《》？：；——【】！]/g, '').replace(/['@好好学习天天向上']/g, '').replace(/['≠']/g,'不等于')  ;//≠
+    //const cleanName = name.replace(/[ ]/g, '');//≠
     return cleanName + ext;
 }
 

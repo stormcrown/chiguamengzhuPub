@@ -1,7 +1,7 @@
 {
   "root": "./docs",
   "charset": "utf-8",
-  "title": "名齐日月",
+  "title": "名齐日月-抢先预览20260423",
   "author": "吃瓜盟主",
   "publisher": "祭天之人",
   "language": "zh",
@@ -15,8 +15,8 @@
   },
   "plugins": [
     "-search",
-    "-lunr"
-
+    "-lunr",
+    "-highlight"
   ]
 
 }
