@@ -1,6 +1,12 @@
 吃瓜盟主本人制作的视频，转为文本内容
 
+- 视频制作
+  - 吃瓜蒙主
+- 声音剥离
+  - ffmpeg
 
+- 文本文件
+  - [软件 AsrTools]( https://github.com/WEIFENG2333/AsrTools )
 
-- 026 委屈巴巴的朱元璋（录屏漫谈版）
-- 179 从李嘉诚看重农抑商的千年博弈.txt
+- 文本整理 Deepseek
+
