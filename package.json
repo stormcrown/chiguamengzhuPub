@@ -2,13 +2,16 @@
   "scripts": {
     "build": "honkit build",
     "serve": "honkit serve",
+    "build:epub": "honkit epub --structure.summary=SUMMARY_EPUB.md ./ ./book.epub",
     "epub": "honkit epub ./ ./名齐日月.epub",
-    "epub2": "honkit epub ./ 名齐日月_%date:~0,4%-%date:~5,2%-%date:~8,2%.epub"
+    "epub2": "honkit epub ./ 名齐日月_兼容%date:~0,4%-%date:~5,2%-%date:~8,2%.epub",
+    "epub3": "honkit epub ./ 名齐日月_%date:~0,4%-%date:~5,2%-%date:~8,2%.epub"
   },
   "devDependencies": {
     "honkit": "^6.1.7"
   },
   "dependencies": {
-    "@honkit/asciidoc": "^6.1.7"
+    "@honkit/asciidoc": "^6.1.7",
+    "axios": "^1.15.2"
   }
 }
