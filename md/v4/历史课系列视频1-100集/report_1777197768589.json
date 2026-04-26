@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-04-26T10:02:48.587Z",
+  "allFiles": 99,
+  "totalFiles": 5,
+  "jumpFiles": 94,
+  "successCount": 5,
+  "failCount": 0,
+  "details": [
+    {
+      "fileName": "第19集  伴生与大清兴与衰的皇家晋商.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1-100集\\第19集  伴生与大清兴与衰的皇家晋商.md",
+      "originalSize": 17527,
+      "processedSize": 18835
+    },
+    {
+      "fileName": "第21集  诗书礼仪扫荡殆尽，和洪秀全有几毛钱关系？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1-100集\\第21集  诗书礼仪扫荡殆尽，和洪秀全有几毛钱关系？.md",
+      "originalSize": 11053,
+      "processedSize": 11952
+    },
+    {
+      "fileName": "第31集  比烂就是洗地，封建王朝和你清不一样比烂就是洗地，封建王朝和你清不一样.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1-100集\\第31集  比烂就是洗地，封建王朝和你清不一样比烂就是洗地，封建王朝和你清不一样.md",
+      "originalSize": 9268,
+      "processedSize": 10150
+    },
+    {
+      "fileName": "第48集  他真的我哭死，我也相当小黑子，我也想被夸 #甄嬛传  #大如 #人生若如初见 #太平天国.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1-100集\\第48集  他真的我哭死，我也相当小黑子，我也想被夸 #甄嬛传  #大如 #人生若如初见 #太平天国.md",
+      "originalSize": 21802,
+      "processedSize": 23084
+    },
+    {
+      "fileName": "第63集  好消息，友望除螨仪，又补货了（对襟，立领，东珠） #对襟 #立领 #东珠 #有望除螨仪.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1-100集\\第63集  好消息，友望除螨仪，又补货了（对襟，立领，东珠） #对襟 #立领 #东珠 #有望除螨仪.md",
+      "originalSize": 12608,
+      "processedSize": 14775
+    }
+  ]
+}
