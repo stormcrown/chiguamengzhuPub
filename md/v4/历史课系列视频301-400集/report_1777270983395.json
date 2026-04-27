@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-04-27T06:23:03.393Z",
+  "allFiles": 100,
+  "totalFiles": 1,
+  "jumpFiles": 99,
+  "successCount": 1,
+  "failCount": 0,
+  "details": [
+    {
+      "fileName": "第309集 不要忘了，教师节9.10的前一天 1080P.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频301-400集\\第309集 不要忘了，教师节9.10的前一天 1080P.md",
+      "originalSize": 9670,
+      "processedSize": 10321
+    }
+  ]
+}
