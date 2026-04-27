@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-04-26T13:41:47.091Z",
+  "allFiles": 206,
+  "totalFiles": 4,
+  "jumpFiles": 202,
+  "successCount": 3,
+  "failCount": 1,
+  "details": [
+    {
+      "fileName": "034 信史昌明后遗症.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\吃瓜蒙主本人原视频Txt\\034 信史昌明后遗症.md",
+      "originalSize": 22969,
+      "processedSize": 50513
+    },
+    {
+      "fileName": "152 外嫁女的幸福生活.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\吃瓜蒙主本人原视频Txt\\152 外嫁女的幸福生活.md",
+      "originalSize": 22573,
+      "processedSize": 23821
+    },
+    {
+      "fileName": "189 跪式主妇≈通房丫头  贤妻良母才是真大女主.txt",
+      "success": false,
+      "error": "API处理失败"
+    },
+    {
+      "fileName": "205 国土不是“狼血”圈的地，是亿万农夫用锄头“种”下的根.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\吃瓜蒙主本人原视频Txt\\205 国土不是“狼血”圈的地，是亿万农夫用锄头“种”下的根.md",
+      "originalSize": 20994,
+      "processedSize": 23233
+    }
+  ]
+}

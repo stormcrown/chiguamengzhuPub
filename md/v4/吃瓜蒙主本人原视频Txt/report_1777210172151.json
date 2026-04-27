@@ -1,0 +1,121 @@
+{
+  "timestamp": "2026-04-26T13:29:32.146Z",
+  "allFiles": 206,
+  "totalFiles": 17,
+  "jumpFiles": 189,
+  "successCount": 13,
+  "failCount": 4,
+  "details": [
+    {
+      "fileName": "019 不正经的中国——千年日记本.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\吃瓜蒙主本人原视频Txt\\019 不正经的中国——千年日记本.md",
+      "originalSize": 34608,
+      "processedSize": 36980
+    },
+    {
+      "fileName": "026 委屈巴巴的朱元璋（录屏漫谈版）.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\吃瓜蒙主本人原视频Txt\\026 委屈巴巴的朱元璋（录屏漫谈版）.md",
+      "originalSize": 78778,
+      "processedSize": 75700
+    },
+    {
+      "fileName": "034 信史昌明后遗症.txt",
+      "success": false,
+      "error": "API处理失败"
+    },
+    {
+      "fileName": "129 朴素的价值观：先撩者贱.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\吃瓜蒙主本人原视频Txt\\129 朴素的价值观：先撩者贱.md",
+      "originalSize": 10261,
+      "processedSize": 11143
+    },
+    {
+      "fileName": "138 阴谋论是阴谋的一部分.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\吃瓜蒙主本人原视频Txt\\138 阴谋论是阴谋的一部分.md",
+      "originalSize": 15518,
+      "processedSize": 16839
+    },
+    {
+      "fileName": "152 外嫁女的幸福生活.txt",
+      "success": false,
+      "error": "API处理失败"
+    },
+    {
+      "fileName": "153 擦边启示录.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\吃瓜蒙主本人原视频Txt\\153 擦边启示录.md",
+      "originalSize": 14422,
+      "processedSize": 15011
+    },
+    {
+      "fileName": "154 QingQiangQiong不应该被翻译.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\吃瓜蒙主本人原视频Txt\\154 QingQiangQiong不应该被翻译.md",
+      "originalSize": 6416,
+      "processedSize": 6719
+    },
+    {
+      "fileName": "155 合作婚姻的投资与风险.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\吃瓜蒙主本人原视频Txt\\155 合作婚姻的投资与风险.md",
+      "originalSize": 23570,
+      "processedSize": 19725
+    },
+    {
+      "fileName": "156 投我木瓜，报之琼瑶——她任性的一生.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\吃瓜蒙主本人原视频Txt\\156 投我木瓜，报之琼瑶——她任性的一生.md",
+      "originalSize": 10271,
+      "processedSize": 10891
+    },
+    {
+      "fileName": "157 金发碧眼背后的伏地魔.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\吃瓜蒙主本人原视频Txt\\157 金发碧眼背后的伏地魔.md",
+      "originalSize": 22287,
+      "processedSize": 24006
+    },
+    {
+      "fileName": "160 红楼考据派：穿新中式的洋学者.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\吃瓜蒙主本人原视频Txt\\160 红楼考据派：穿新中式的洋学者.md",
+      "originalSize": 26261,
+      "processedSize": 29071
+    },
+    {
+      "fileName": "171 魔改历史剧，让逻辑输给“大女主”爽文.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\吃瓜蒙主本人原视频Txt\\171 魔改历史剧，让逻辑输给“大女主”爽文.md",
+      "originalSize": 15263,
+      "processedSize": 16209
+    },
+    {
+      "fileName": "187 封妻荫子，中国社会晋升的千年魔咒.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\吃瓜蒙主本人原视频Txt\\187 封妻荫子，中国社会晋升的千年魔咒.md",
+      "originalSize": 28429,
+      "processedSize": 31492
+    },
+    {
+      "fileName": "189 跪式主妇≈通房丫头  贤妻良母才是真大女主.txt",
+      "success": false,
+      "error": "API处理失败"
+    },
+    {
+      "fileName": "190 历史擦边剧卷土重来，颜值即正义？替僵尸王朝抛光？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\吃瓜蒙主本人原视频Txt\\190 历史擦边剧卷土重来，颜值即正义？替僵尸王朝抛光？.md",
+      "originalSize": 19583,
+      "processedSize": 20770
+    },
+    {
+      "fileName": "205 国土不是“狼血”圈的地，是亿万农夫用锄头“种”下的根.txt",
+      "success": false,
+      "error": "API处理失败"
+    }
+  ]
+}
