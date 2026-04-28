@@ -1,0 +1,358 @@
+{
+  "timestamp": "2026-04-28T04:34:38.179Z",
+  "allFiles": 50,
+  "totalFiles": 50,
+  "jumpFiles": 0,
+  "successCount": 49,
+  "failCount": 1,
+  "details": [
+    {
+      "fileName": "第1001集 为什么会出现汉地十八省？ .txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1001集 为什么会出现汉地十八省？ .md",
+      "originalSize": 7511,
+      "processedSize": 8215
+    },
+    {
+      "fileName": "第1002集 为什么说毛选是中国哲学的瑰宝.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1002集 为什么说毛选是中国哲学的瑰宝.md",
+      "originalSize": 5844,
+      "processedSize": 6270
+    },
+    {
+      "fileName": "第1003集 为何一般不称汉朝为刘汉_为何割据常举汉旗.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1003集 为何一般不称汉朝为刘汉_为何割据常举汉旗.md",
+      "originalSize": 2570,
+      "processedSize": 2282
+    },
+    {
+      "fileName": "第1004集 互联网双面人_身份强调与背叛行为揭秘.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1004集 互联网双面人_身份强调与背叛行为揭秘.md",
+      "originalSize": 2128,
+      "processedSize": 2716
+    },
+    {
+      "fileName": "第1005集 五胡乱华的定义是客观正义的_入华叙事纯属胡说八道.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1005集 五胡乱华的定义是客观正义的_入华叙事纯属胡说八道.md",
+      "originalSize": 1844,
+      "processedSize": 2022
+    },
+    {
+      "fileName": "第1006集 什么是无孩爱猫女_这一群体在想什么.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1006集 什么是无孩爱猫女_这一群体在想什么.md",
+      "originalSize": 1863,
+      "processedSize": 2436
+    },
+    {
+      "fileName": "第1007集 什么是精神包衣？ .txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1007集 什么是精神包衣？ .md",
+      "originalSize": 2930,
+      "processedSize": 4447
+    },
+    {
+      "fileName": "第1008集 从弟子规看扭曲的清代儿童启蒙教育.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1008集 从弟子规看扭曲的清代儿童启蒙教育.md",
+      "originalSize": 7963,
+      "processedSize": 6369
+    },
+    {
+      "fileName": "第1009集 从五胡乱华到明朝的智慧管理.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1009集 从五胡乱华到明朝的智慧管理.md",
+      "originalSize": 5291,
+      "processedSize": 5489
+    },
+    {
+      "fileName": "第1010集 伪宋说的背后_藏着什么不可告人的目的.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1010集 伪宋说的背后_藏着什么不可告人的目的.md",
+      "originalSize": 1090,
+      "processedSize": 1618
+    },
+    {
+      "fileName": "第1011集 元清统治对比与明朝战力分析.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1011集 元清统治对比与明朝战力分析.md",
+      "originalSize": 4695,
+      "processedSize": 5041
+    },
+    {
+      "fileName": "第1012集 公知如何起源的.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1012集 公知如何起源的.md",
+      "originalSize": 6088,
+      "processedSize": 6839
+    },
+    {
+      "fileName": "第1013集 农耕与游牧_两种生产方式的根本差异.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1013集 农耕与游牧_两种生产方式的根本差异.md",
+      "originalSize": 4534,
+      "processedSize": 5595
+    },
+    {
+      "fileName": "第1014集 古典时期中国人饮食状况揭秘_粮食产量与耕作条件.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1014集 古典时期中国人饮食状况揭秘_粮食产量与耕作条件.md",
+      "originalSize": 7231,
+      "processedSize": 5623
+    },
+    {
+      "fileName": "第1015集 周公旦与周礼_汉文明规则的缔造者.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1015集 周公旦与周礼_汉文明规则的缔造者.md",
+      "originalSize": 6543,
+      "processedSize": 7532
+    },
+    {
+      "fileName": "第1016集 墨家弟子集体转行_天文数学矿业从未离开.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1016集 墨家弟子集体转行_天文数学矿业从未离开.md",
+      "originalSize": 1231,
+      "processedSize": 1565
+    },
+    {
+      "fileName": "第1017集 大V集体禁言事件_互联网还有说真话的空间吗.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1017集 大V集体禁言事件_互联网还有说真话的空间吗.md",
+      "originalSize": 2825,
+      "processedSize": 3256
+    },
+    {
+      "fileName": "第1018集 太平天国_一场改变中国历史的起义.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1018集 太平天国_一场改变中国历史的起义.md",
+      "originalSize": 5054,
+      "processedSize": 5710
+    },
+    {
+      "fileName": "第1019集 如何才能实践兼爱和众生平等.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1019集 如何才能实践兼爱和众生平等.md",
+      "originalSize": 1994,
+      "processedSize": 2224
+    },
+    {
+      "fileName": "第1020集 宋朝生活有多富足_看看蒙古奴隶的选择.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1020集 宋朝生活有多富足_看看蒙古奴隶的选择.md",
+      "originalSize": 2564,
+      "processedSize": 3242
+    },
+    {
+      "fileName": "第1021集 宗族文化探秘_为何宗族能在现代社会中依然存在.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1021集 宗族文化探秘_为何宗族能在现代社会中依然存在.md",
+      "originalSize": 7212,
+      "processedSize": 7251
+    },
+    {
+      "fileName": "第1022集 张居正改革为何崩盘_白银陷阱明朝货币主权沦亡.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1022集 张居正改革为何崩盘_白银陷阱明朝货币主权沦亡.md",
+      "originalSize": 2877,
+      "processedSize": 3020
+    },
+    {
+      "fileName": "第1023集 当土变成贬义词_警惕文化自卑陷阱.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1023集 当土变成贬义词_警惕文化自卑陷阱.md",
+      "originalSize": 9075,
+      "processedSize": 10115
+    },
+    {
+      "fileName": "第1024集 当你看到上帝想到的是狗蛋_这是一种文化入侵吗.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1024集 当你看到上帝想到的是狗蛋_这是一种文化入侵吗.md",
+      "originalSize": 3227,
+      "processedSize": 3550
+    },
+    {
+      "fileName": "第1025集 影视文化偏见与群体潜意识操控.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1025集 影视文化偏见与群体潜意识操控.md",
+      "originalSize": 1743,
+      "processedSize": 2883
+    },
+    {
+      "fileName": "第1026集 怎么看待李世民的功绩_开创盛世的明君与埋下隐患的决策者.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1026集 怎么看待李世民的功绩_开创盛世的明君与埋下隐患的决策者.md",
+      "originalSize": 5704,
+      "processedSize": 5527
+    },
+    {
+      "fileName": "第1027集 揭秘热搜背后_推流发行与上榜真相.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1027集 揭秘热搜背后_推流发行与上榜真相.md",
+      "originalSize": 4144,
+      "processedSize": 4026
+    },
+    {
+      "fileName": "第1028集 明代传教士真相_抄文献胜过传教_西方宗教东侵隐秘动机.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1028集 明代传教士真相_抄文献胜过传教_西方宗教东侵隐秘动机.md",
+      "originalSize": 5843,
+      "processedSize": 3128
+    },
+    {
+      "fileName": "第1029集 明代海洋帝国_琉球与中国的不解之缘.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1029集 明代海洋帝国_琉球与中国的不解之缘.md",
+      "originalSize": 3093,
+      "processedSize": 2407
+    },
+    {
+      "fileName": "第1030集 明朝技术强为何亡国_关键在晋商.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1030集 明朝技术强为何亡国_关键在晋商.md",
+      "originalSize": 3646,
+      "processedSize": 3149
+    },
+    {
+      "fileName": "第1031集 曾国藩_圣人还是恶魔_捧上神坛的刽子手.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1031集 曾国藩_圣人还是恶魔_捧上神坛的刽子手.md",
+      "originalSize": 5321,
+      "processedSize": 6068
+    },
+    {
+      "fileName": "第1032集 汉服复兴之路的艰难险阻与内外推动力量.txt",
+      "success": false,
+      "error": "API处理失败"
+    },
+    {
+      "fileName": "第1033集 泰山封禅的皇帝为什么那么少_宋朝因何花钱买和平.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1033集 泰山封禅的皇帝为什么那么少_宋朝因何花钱买和平.md",
+      "originalSize": 4851,
+      "processedSize": 5421
+    },
+    {
+      "fileName": "第1034集 满族同胞与满族遗老遗少_谁是敌人谁是朋友.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1034集 满族同胞与满族遗老遗少_谁是敌人谁是朋友.md",
+      "originalSize": 2371,
+      "processedSize": 2876
+    },
+    {
+      "fileName": "第1035集 满清称谓小科普_为何有人对满清敏感.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1035集 满清称谓小科普_为何有人对满清敏感.md",
+      "originalSize": 1445,
+      "processedSize": 1854
+    },
+    {
+      "fileName": "第1036集 爱国主播_你真的了解吗.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1036集 爱国主播_你真的了解吗.md",
+      "originalSize": 1711,
+      "processedSize": 2144
+    },
+    {
+      "fileName": "第1037集 班昭为何撰写女戒_背后故事揭秘.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1037集 班昭为何撰写女戒_背后故事揭秘.md",
+      "originalSize": 2735,
+      "processedSize": 3309
+    },
+    {
+      "fileName": "第1038集 琵琶是胡人的乐器吗_西方中心论式证据.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1038集 琵琶是胡人的乐器吗_西方中心论式证据.md",
+      "originalSize": 2060,
+      "processedSize": 2651
+    },
+    {
+      "fileName": "第1039集 礼乐治天下_音乐在古代中国社会中的地位.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1039集 礼乐治天下_音乐在古代中国社会中的地位.md",
+      "originalSize": 5514,
+      "processedSize": 4723
+    },
+    {
+      "fileName": "第1040集 科学二字等于科学存在吗_格物致知与现代定义终极之战.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1040集 科学二字等于科学存在吗_格物致知与现代定义终极之战.md",
+      "originalSize": 935,
+      "processedSize": 1132
+    },
+    {
+      "fileName": "第1041集 红楼考据派因何诞生？ .txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1041集 红楼考据派因何诞生？ .md",
+      "originalSize": 6140,
+      "processedSize": 7394
+    },
+    {
+      "fileName": "第1042集 血统之谜_为何说农村土狗也有纯正血统.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1042集 血统之谜_为何说农村土狗也有纯正血统.md",
+      "originalSize": 3384,
+      "processedSize": 3304
+    },
+    {
+      "fileName": "第1043集 表意汉字VS拉丁字母_谁才是文字系统的王者.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1043集 表意汉字VS拉丁字母_谁才是文字系统的王者.md",
+      "originalSize": 9441,
+      "processedSize": 9903
+    },
+    {
+      "fileName": "第1044集 被我们打跑的_到别地儿就称王称霸.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1044集 被我们打跑的_到别地儿就称王称霸.md",
+      "originalSize": 1268,
+      "processedSize": 1561
+    },
+    {
+      "fileName": "第1045集 西方人狡猾_一边自夸摩登一边把你钉死在原始人标签.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1045集 西方人狡猾_一边自夸摩登一边把你钉死在原始人标签.md",
+      "originalSize": 4667,
+      "processedSize": 5915
+    },
+    {
+      "fileName": "第1046集 视死如视生_中国人的独特祭祀观念.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1046集 视死如视生_中国人的独特祭祀观念.md",
+      "originalSize": 7746,
+      "processedSize": 7389
+    },
+    {
+      "fileName": "第1047集 铁锅走私案揭示西方技术悖论.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1047集 铁锅走私案揭示西方技术悖论.md",
+      "originalSize": 1801,
+      "processedSize": 2402
+    },
+    {
+      "fileName": "第1048集 晋商走私军需发国难财_被下架的真正原因.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1048集 晋商走私军需发国难财_被下架的真正原因.md",
+      "originalSize": 5731,
+      "processedSize": 6557
+    },
+    {
+      "fileName": "第1049集 隔岸观火_美国政治大戏为何总是很戏谑.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1049集 隔岸观火_美国政治大戏为何总是很戏谑.md",
+      "originalSize": 2244,
+      "processedSize": 2850
+    },
+    {
+      "fileName": "第1050集 韩国偷文化为何反成神助攻.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频1001-1050集\\第1050集 韩国偷文化为何反成神助攻.md",
+      "originalSize": 5797,
+      "processedSize": 6495
+    }
+  ]
+}
