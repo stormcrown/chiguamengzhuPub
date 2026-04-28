@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-04-27T12:31:59.779Z",
+  "allFiles": 48,
+  "totalFiles": 5,
+  "jumpFiles": 43,
+  "successCount": 5,
+  "failCount": 0,
+  "details": [
+    {
+      "fileName": "第665集 啥是日耳蛮赢学？赢赢赢，赢麻了！.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频651-700集\\第665集 啥是日耳蛮赢学？赢赢赢，赢麻了！.md",
+      "originalSize": 16285,
+      "processedSize": 17438
+    },
+    {
+      "fileName": "第671集 如何一眼分辨国风与w风？国风：欣欣向荣。日本：要死不活。.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频651-700集\\第671集 如何一眼分辨国风与w风？国风：欣欣向荣。日本：要死不活。.md",
+      "originalSize": 29287,
+      "processedSize": 28821
+    },
+    {
+      "fileName": "第687集 满遗欲封直播间，激怒挑衅无底线。 “满清统治你们，不是你们自愿的吗？”.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频651-700集\\第687集 满遗欲封直播间，激怒挑衅无底线。 “满清统治你们，不是你们自愿的吗？”.md",
+      "originalSize": 23137,
+      "processedSize": 24490
+    },
+    {
+      "fileName": "第689集 罗圣说的老姓是什么？乌拉那拉和钮祜禄谁更大？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频651-700集\\第689集 罗圣说的老姓是什么？乌拉那拉和钮祜禄谁更大？.md",
+      "originalSize": 17228,
+      "processedSize": 18409
+    },
+    {
+      "fileName": "第695集 评价一下袁崇焕和明末商人，太平盛世出白左。 警惕自由口号，勿复晚明旧事!.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频651-700集\\第695集 评价一下袁崇焕和明末商人，太平盛世出白左。 警惕自由口号，勿复晚明旧事!.md",
+      "originalSize": 12641,
+      "processedSize": 14201
+    }
+  ]
+}

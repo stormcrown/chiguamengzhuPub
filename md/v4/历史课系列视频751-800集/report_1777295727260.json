@@ -1,0 +1,360 @@
+{
+  "timestamp": "2026-04-27T13:15:27.258Z",
+  "allFiles": 50,
+  "totalFiles": 50,
+  "jumpFiles": 0,
+  "successCount": 50,
+  "failCount": 0,
+  "details": [
+    {
+      "fileName": "第751集 一说西方找明朝订购火器，西史信徒就破大防.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第751集 一说西方找明朝订购火器，西史信徒就破大防.md",
+      "originalSize": 13262,
+      "processedSize": 13424
+    },
+    {
+      "fileName": "第752集 不给理由不让灭世的中国神仙。敢降灾，把你庙砸咯.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第752集 不给理由不让灭世的中国神仙。敢降灾，把你庙砸咯.md",
+      "originalSize": 8078,
+      "processedSize": 7975
+    },
+    {
+      "fileName": "第753集 中医才是现代医学的地基，而不是园林和经济.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第753集 中医才是现代医学的地基，而不是园林和经济.md",
+      "originalSize": 6173,
+      "processedSize": 5860
+    },
+    {
+      "fileName": "第754集 为何有了蒙元的前车之鉴，还会出da清.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第754集 为何有了蒙元的前车之鉴，还会出da清.md",
+      "originalSize": 13319,
+      "processedSize": 14815
+    },
+    {
+      "fileName": "第755集 为啥都是传统风俗。却只提彩礼不提嫁妆？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第755集 为啥都是传统风俗。却只提彩礼不提嫁妆？.md",
+      "originalSize": 16849,
+      "processedSize": 17849
+    },
+    {
+      "fileName": "第756集 九子夺嫡为什么是雍正？太难了，卖个吸尘器都能破坏团结 2025.04.0熙正隆.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第756集 九子夺嫡为什么是雍正？太难了，卖个吸尘器都能破坏团结 2025.04.0熙正隆.md",
+      "originalSize": 22763,
+      "processedSize": 24839
+    },
+    {
+      "fileName": "第757集 五胡乱华和满清入关的区别有哪些？ #五胡乱华.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第757集 五胡乱华和满清入关的区别有哪些？ #五胡乱华.md",
+      "originalSize": 14512,
+      "processedSize": 10980
+    },
+    {
+      "fileName": "第758集 什么是传统服饰？汉人穿泳装算是汉服吗？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第758集 什么是传统服饰？汉人穿泳装算是汉服吗？.md",
+      "originalSize": 7830,
+      "processedSize": 8880
+    },
+    {
+      "fileName": "第759集 从古代婚姻制度看中西方契约精神的差异.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第759集 从古代婚姻制度看中西方契约精神的差异.md",
+      "originalSize": 13932,
+      "processedSize": 7910
+    },
+    {
+      "fileName": "第760集 从说文解字到《康熙字典》，看郡县制向奴隶制的大倒退 #奴隶制.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第760集 从说文解字到《康熙字典》，看郡县制向奴隶制的大倒退 #奴隶制.md",
+      "originalSize": 9245,
+      "processedSize": 10682
+    },
+    {
+      "fileName": "第761集 以军用妇女小孩当r盾的启蒙老师，努尔哈赤.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第761集 以军用妇女小孩当r盾的启蒙老师，努尔哈赤.md",
+      "originalSize": 29310,
+      "processedSize": 28064
+    },
+    {
+      "fileName": "第762集 你被白左的性别叙事洗脑成功了吗？ 为啥越打女拳，女性越不好找工作。.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第762集 你被白左的性别叙事洗脑成功了吗？ 为啥越打女拳，女性越不好找工作。.md",
+      "originalSize": 12571,
+      "processedSize": 13965
+    },
+    {
+      "fileName": "第763集 八旗制度的旗，到底啥意思？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第763集 八旗制度的旗，到底啥意思？.md",
+      "originalSize": 14119,
+      "processedSize": 15223
+    },
+    {
+      "fileName": "第764集 公知有多公，就看吹胡适吹的有多凶.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第764集 公知有多公，就看吹胡适吹的有多凶.md",
+      "originalSize": 16614,
+      "processedSize": 18180
+    },
+    {
+      "fileName": "第765集 十全老人守住了新疆？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第765集 十全老人守住了新疆？.md",
+      "originalSize": 9991,
+      "processedSize": 10808
+    },
+    {
+      "fileName": "第766集 历史探源最重要的是立场.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第766集 历史探源最重要的是立场.md",
+      "originalSize": 15055,
+      "processedSize": 15917
+    },
+    {
+      "fileName": "第767集 只要发现古文物，马上就说西来的。考古砖家到底看不起谁？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第767集 只要发现古文物，马上就说西来的。考古砖家到底看不起谁？.md",
+      "originalSize": 14025,
+      "processedSize": 14820
+    },
+    {
+      "fileName": "第768集 四大名著都有草蛇灰线，那么红楼梦到底在说啥？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第768集 四大名著都有草蛇灰线，那么红楼梦到底在说啥？.md",
+      "originalSize": 18603,
+      "processedSize": 20133
+    },
+    {
+      "fileName": "第769集 复习一下掏粪说.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第769集 复习一下掏粪说.md",
+      "originalSize": 10190,
+      "processedSize": 11790
+    },
+    {
+      "fileName": "第770集 如何看待臭男人热衷的王朝排行榜 高高兴兴点评，开开心心划走。.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第770集 如何看待臭男人热衷的王朝排行榜 高高兴兴点评，开开心心划走。.md",
+      "originalSize": 22932,
+      "processedSize": 23602
+    },
+    {
+      "fileName": "第771集 委屈死了，被说天天批清朝。说啥清都是例外，你让人怎么讲.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第771集 委屈死了，被说天天批清朝。说啥清都是例外，你让人怎么讲.md",
+      "originalSize": 7538,
+      "processedSize": 8480
+    },
+    {
+      "fileName": "第772集 当初为啥是改造溥仪，不是直接咔嚓.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第772集 当初为啥是改造溥仪，不是直接咔嚓.md",
+      "originalSize": 10572,
+      "processedSize": 11508
+    },
+    {
+      "fileName": "第773集 怎么一问饭从哪来的，言必称希腊的信徒就破大防？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第773集 怎么一问饭从哪来的，言必称希腊的信徒就破大防？.md",
+      "originalSize": 23127,
+      "processedSize": 24713
+    },
+    {
+      "fileName": "第774集 我大清为何以秃为美，穿清装不剃半秃瓢其实一点不正宗.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第774集 我大清为何以秃为美，穿清装不剃半秃瓢其实一点不正宗.md",
+      "originalSize": 9871,
+      "processedSize": 10530
+    },
+    {
+      "fileName": "第775集 所以民国为啥是买办？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第775集 所以民国为啥是买办？.md",
+      "originalSize": 10903,
+      "processedSize": 13623
+    },
+    {
+      "fileName": "第776集 所以满清为啥要闭g锁g.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第776集 所以满清为啥要闭g锁g.md",
+      "originalSize": 11177,
+      "processedSize": 12592
+    },
+    {
+      "fileName": "第777集 林正英为何觉得满官服最适合演GUI片？清马面的萨满元素.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第777集 林正英为何觉得满官服最适合演GUI片？清马面的萨满元素.md",
+      "originalSize": 15914,
+      "processedSize": 17318
+    },
+    {
+      "fileName": "第778集 欧洲的古代名人，为啥都绝后？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第778集 欧洲的古代名人，为啥都绝后？.md",
+      "originalSize": 17825,
+      "processedSize": 17577
+    },
+    {
+      "fileName": "第779集 毁三观的洗清神剧，百姓共情奴隶主，要把格格当菩萨。.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第779集 毁三观的洗清神剧，百姓共情奴隶主，要把格格当菩萨。.md",
+      "originalSize": 8828,
+      "processedSize": 10611
+    },
+    {
+      "fileName": "第780集 永乐大典变成一个梗，对于国人来说是悲哀.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第780集 永乐大典变成一个梗，对于国人来说是悲哀.md",
+      "originalSize": 5824,
+      "processedSize": 6401
+    },
+    {
+      "fileName": "第781集 汉服复兴会失败吗？如何锤炼思维言谈，如何进行中国文化的扩张.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第781集 汉服复兴会失败吗？如何锤炼思维言谈，如何进行中国文化的扩张.md",
+      "originalSize": 13125,
+      "processedSize": 13713
+    },
+    {
+      "fileName": "第782集 清朝流行的打胎，是因为以前重n轻b吗？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第782集 清朝流行的打胎，是因为以前重n轻b吗？.md",
+      "originalSize": 16225,
+      "processedSize": 18197
+    },
+    {
+      "fileName": "第783集 清编明史张献忠tu川，一定是假的。.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第783集 清编明史张献忠tu川，一定是假的。.md",
+      "originalSize": 12904,
+      "processedSize": 12830
+    },
+    {
+      "fileName": "第784集 满族源流考-爱新觉罗源氏 溥仪.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第784集 满族源流考-爱新觉罗源氏 溥仪.md",
+      "originalSize": 9487,
+      "processedSize": 10609
+    },
+    {
+      "fileName": "第785集 满遗还想梦回大清，动不动让人磕头。我们古代没有那么LOW #奴才.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第785集 满遗还想梦回大清，动不动让人磕头。我们古代没有那么LOW #奴才.md",
+      "originalSize": 12738,
+      "processedSize": 13726
+    },
+    {
+      "fileName": "第786集 特爱区分华人华裔与华侨。其实是民族意识淡薄的表现。.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第786集 特爱区分华人华裔与华侨。其实是民族意识淡薄的表现。.md",
+      "originalSize": 19546,
+      "processedSize": 21153
+    },
+    {
+      "fileName": "第787集 章总为啥毁了天工开物留着红楼梦？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第787集 章总为啥毁了天工开物留着红楼梦？.md",
+      "originalSize": 12977,
+      "processedSize": 14342
+    },
+    {
+      "fileName": "第788集 经核实，马皇后不能藏饼。为何明制汉服系统特别完整.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第788集 经核实，马皇后不能藏饼。为何明制汉服系统特别完整.md",
+      "originalSize": 18692,
+      "processedSize": 19996
+    },
+    {
+      "fileName": "第789集 聊一下招笑的古埃及跨海贸易.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第789集 聊一下招笑的古埃及跨海贸易.md",
+      "originalSize": 8360,
+      "processedSize": 8926
+    },
+    {
+      "fileName": "第790集 自我认知何时容易诞生.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第790集 自我认知何时容易诞生.md",
+      "originalSize": 7975,
+      "processedSize": 9070
+    },
+    {
+      "fileName": "第791集 萝莉岛的证人自杀，想起了张纯如老师.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第791集 萝莉岛的证人自杀，想起了张纯如老师.md",
+      "originalSize": 9064,
+      "processedSize": 10205
+    },
+    {
+      "fileName": "第792集 落后的关外马帮如何能捡大顺的漏？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第792集 落后的关外马帮如何能捡大顺的漏？.md",
+      "originalSize": 9545,
+      "processedSize": 10362
+    },
+    {
+      "fileName": "第793集 董小姐的行为证明董大姐的话，一点问题都没有.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第793集 董小姐的行为证明董大姐的话，一点问题都没有.md",
+      "originalSize": 10997,
+      "processedSize": 11771
+    },
+    {
+      "fileName": "第794集 蒙元儒户，一出生就是公务员？元朝小镇做题家，为啥酷爱写剧本.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第794集 蒙元儒户，一出生就是公务员？元朝小镇做题家，为啥酷爱写剧本.md",
+      "originalSize": 11589,
+      "processedSize": 13358
+    },
+    {
+      "fileName": "第795集 补档：叶赫那拉还能守国门？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第795集 补档：叶赫那拉还能守国门？.md",
+      "originalSize": 16133,
+      "processedSize": 17689
+    },
+    {
+      "fileName": "第796集 袁崇焕吧里多清吹之袁崇焕为什么比不了史可法.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第796集 袁崇焕吧里多清吹之袁崇焕为什么比不了史可法.md",
+      "originalSize": 14492,
+      "processedSize": 15766
+    },
+    {
+      "fileName": "第797集 西方文明的历史就靠信徒的一张嘴？这都分不清只好带货除螨仪.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第797集 西方文明的历史就靠信徒的一张嘴？这都分不清只好带货除螨仪.md",
+      "originalSize": 13550,
+      "processedSize": 14761
+    },
+    {
+      "fileName": "第798集 跪族如何诞生，停滞的思想追不上发展的速度.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第798集 跪族如何诞生，停滞的思想追不上发展的速度.md",
+      "originalSize": 7817,
+      "processedSize": 8799
+    },
+    {
+      "fileName": "第799集 达坂城的姑娘为何带着妹妹一起嫁过来.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第799集 达坂城的姑娘为何带着妹妹一起嫁过来.md",
+      "originalSize": 9703,
+      "processedSize": 11286
+    },
+    {
+      "fileName": "第800集 韩国人为啥不偷清朝的东西，清朝的大儒为啥叫犬儒？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频751-800集\\第800集 韩国人为啥不偷清朝的东西，清朝的大儒为啥叫犬儒？.md",
+      "originalSize": 14274,
+      "processedSize": 15294
+    }
+  ]
+}

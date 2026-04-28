@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-04-27T11:19:57.997Z",
+  "allFiles": 50,
+  "totalFiles": 1,
+  "jumpFiles": 49,
+  "successCount": 0,
+  "failCount": 1,
+  "details": [
+    {
+      "fileName": "第614集 历史哥激情演讲，袁崇焕吧里多清吹！#民族英雄.txt",
+      "success": false,
+      "error": "API处理失败"
+    }
+  ]
+}
