@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-04-27T07:40:36.196Z",
+  "allFiles": 49,
+  "totalFiles": 3,
+  "jumpFiles": 46,
+  "successCount": 3,
+  "failCount": 0,
+  "details": [
+    {
+      "fileName": "第401集 东林党与改土归流，小青粉与美国新清史.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频401-450集\\第401集 东林党与改土归流，小青粉与美国新清史.md",
+      "originalSize": 12533,
+      "processedSize": 13006
+    },
+    {
+      "fileName": "第418集 工业革命的基础大明都准备好了，而清为何不要？.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频401-450集\\第418集 工业革命的基础大明都准备好了，而清为何不要？.md",
+      "originalSize": 8979,
+      "processedSize": 9917
+    },
+    {
+      "fileName": "第427集 有人利用连麦，让蒙主审论文（浅析人类社会三种运行模式）.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频401-450集\\第427集 有人利用连麦，让蒙主审论文（浅析人类社会三种运行模式）.md",
+      "originalSize": 15546,
+      "processedSize": 16828
+    }
+  ]
+}
