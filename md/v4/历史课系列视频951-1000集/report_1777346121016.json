@@ -1,0 +1,360 @@
+{
+  "timestamp": "2026-04-28T03:15:21.010Z",
+  "allFiles": 50,
+  "totalFiles": 50,
+  "jumpFiles": 0,
+  "successCount": 50,
+  "failCount": 0,
+  "details": [
+    {
+      "fileName": "第1000集 黑子水平_从造谣到诅咒的沦陷之路.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第1000集 黑子水平_从造谣到诅咒的沦陷之路.md",
+      "originalSize": 2800,
+      "processedSize": 3489
+    },
+    {
+      "fileName": "第951集 四库全书修订真相_文献的毁灭与篡改.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第951集 四库全书修订真相_文献的毁灭与篡改.md",
+      "originalSize": 4647,
+      "processedSize": 4485
+    },
+    {
+      "fileName": "第952集 神仙经济学_连件好衣裳都穿不起也配叫神仙.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第952集 神仙经济学_连件好衣裳都穿不起也配叫神仙.md",
+      "originalSize": 1796,
+      "processedSize": 2325
+    },
+    {
+      "fileName": "第953集 笔墨丹青藏山河_从神仙图样看文化基因的延续.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第953集 笔墨丹青藏山河_从神仙图样看文化基因的延续.md",
+      "originalSize": 3465,
+      "processedSize": 4129
+    },
+    {
+      "fileName": "第954集 苏联埋下的雷_民族识别政策背后的地缘政治隐患.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第954集 苏联埋下的雷_民族识别政策背后的地缘政治隐患.md",
+      "originalSize": 5287,
+      "processedSize": 5628
+    },
+    {
+      "fileName": "第955集 国足输在哪_钱太多反而毁了荣誉感.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第955集 国足输在哪_钱太多反而毁了荣誉感.md",
+      "originalSize": 4768,
+      "processedSize": 5353
+    },
+    {
+      "fileName": "第956集 思维铁锅_三十岁才懂毛选的好.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第956集 思维铁锅_三十岁才懂毛选的好.md",
+      "originalSize": 3898,
+      "processedSize": 4534
+    },
+    {
+      "fileName": "第957集 长安真相_万邦来朝背后是铁血军靴与户籍制度.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第957集 长安真相_万邦来朝背后是铁血军靴与户籍制度.md",
+      "originalSize": 8184,
+      "processedSize": 9468
+    },
+    {
+      "fileName": "第958集 门里门外_你得先拜码头_文艺圈丛林法则实录.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第958集 门里门外_你得先拜码头_文艺圈丛林法则实录.md",
+      "originalSize": 9802,
+      "processedSize": 11082
+    },
+    {
+      "fileName": "第959集 肉食者鄙与圣人与人民万岁.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第959集 肉食者鄙与圣人与人民万岁.md",
+      "originalSize": 6768,
+      "processedSize": 7807
+    },
+    {
+      "fileName": "第960集 中国汉服复兴运动的三次重要历史节点.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第960集 中国汉服复兴运动的三次重要历史节点.md",
+      "originalSize": 6041,
+      "processedSize": 3653
+    },
+    {
+      "fileName": "第961集 中国雅乐被夺真相_日本藏原始档案拒归还.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第961集 中国雅乐被夺真相_日本藏原始档案拒归还.md",
+      "originalSize": 2776,
+      "processedSize": 3692
+    },
+    {
+      "fileName": "第962集 互联网乱象的根源_政治正确的危害.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第962集 互联网乱象的根源_政治正确的危害.md",
+      "originalSize": 2137,
+      "processedSize": 2453
+    },
+    {
+      "fileName": "第963集 五代为何最黑暗_正统权分离的恶果.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第963集 五代为何最黑暗_正统权分离的恶果.md",
+      "originalSize": 5158,
+      "processedSize": 4699
+    },
+    {
+      "fileName": "第964集 五千载文明_破而后立的生命线.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第964集 五千载文明_破而后立的生命线.md",
+      "originalSize": 1946,
+      "processedSize": 2547
+    },
+    {
+      "fileName": "第965集 五胡乱华真相调查_秩序崩坏时新移民为何0元购.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第965集 五胡乱华真相调查_秩序崩坏时新移民为何0元购.md",
+      "originalSize": 5826,
+      "processedSize": 6183
+    },
+    {
+      "fileName": "第966集 京剧形成背后的八旗审美操控.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第966集 京剧形成背后的八旗审美操控.md",
+      "originalSize": 2307,
+      "processedSize": 2874
+    },
+    {
+      "fileName": "第967集 他们曾为南京沦陷张灯结彩_课本不敢写的全民狂欢真相.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第967集 他们曾为南京沦陷张灯结彩_课本不敢写的全民狂欢真相.md",
+      "originalSize": 2611,
+      "processedSize": 3227
+    },
+    {
+      "fileName": "第968集 价值观警示_别把丛林法则当人生信条.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第968集 价值观警示_别把丛林法则当人生信条.md",
+      "originalSize": 7592,
+      "processedSize": 6840
+    },
+    {
+      "fileName": "第969集 传统的发明_那些被刻意模糊的历史断代.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第969集 传统的发明_那些被刻意模糊的历史断代.md",
+      "originalSize": 11341,
+      "processedSize": 3952
+    },
+    {
+      "fileName": "第970集 你已被思想殖民绑架_这些细节让你主动跪下去.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第970集 你已被思想殖民绑架_这些细节让你主动跪下去.md",
+      "originalSize": 6749,
+      "processedSize": 7150
+    },
+    {
+      "fileName": "第971集 制度的悖论_秦制兴衰与今日启示.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第971集 制度的悖论_秦制兴衰与今日启示.md",
+      "originalSize": 3100,
+      "processedSize": 3302
+    },
+    {
+      "fileName": "第972集 历史不容遗忘_张纯如用生命守护的记忆.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第972集 历史不容遗忘_张纯如用生命守护的记忆.md",
+      "originalSize": 6269,
+      "processedSize": 6988
+    },
+    {
+      "fileName": "第973集 古埃及文字是画还是字母_西方破译方法逻辑漏洞.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第973集 古埃及文字是画还是字母_西方破译方法逻辑漏洞.md",
+      "originalSize": 14984,
+      "processedSize": 8042
+    },
+    {
+      "fileName": "第974集 周礼旧制话市容_弃灰于市的文明脉络.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第974集 周礼旧制话市容_弃灰于市的文明脉络.md",
+      "originalSize": 2629,
+      "processedSize": 2770
+    },
+    {
+      "fileName": "第975集 商周之变_最被低估的文明升级.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第975集 商周之变_最被低估的文明升级.md",
+      "originalSize": 7192,
+      "processedSize": 6546
+    },
+    {
+      "fileName": "第976集 尘寰权衡录_女权迷思与价值真相.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第976集 尘寰权衡录_女权迷思与价值真相.md",
+      "originalSize": 11389,
+      "processedSize": 11432
+    },
+    {
+      "fileName": "第977集 岛国宿命与侵略基因_从地理视角解构倭寇文化.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第977集 岛国宿命与侵略基因_从地理视角解构倭寇文化.md",
+      "originalSize": 17589,
+      "processedSize": 11091
+    },
+    {
+      "fileName": "第978集 当年轻人开始用五千年视角看传统.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第978集 当年轻人开始用五千年视角看传统.md",
+      "originalSize": 2348,
+      "processedSize": 2835
+    },
+    {
+      "fileName": "第979集 曾剃头_杀人如麻的刽子手为何成成功学IP.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第979集 曾剃头_杀人如麻的刽子手为何成成功学IP.md",
+      "originalSize": 3147,
+      "processedSize": 3445
+    },
+    {
+      "fileName": "第980集 朱元璋修元史只要1年_清朝修明史为何耗100年.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第980集 朱元璋修元史只要1年_清朝修明史为何耗100年.md",
+      "originalSize": 3459,
+      "processedSize": 3712
+    },
+    {
+      "fileName": "第981集 朱明被黑背后_一场认知逆袭.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第981集 朱明被黑背后_一场认知逆袭.md",
+      "originalSize": 1462,
+      "processedSize": 1938
+    },
+    {
+      "fileName": "第982集 永不加赋_税可没少收_明清对比.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第982集 永不加赋_税可没少收_明清对比.md",
+      "originalSize": 7164,
+      "processedSize": 4863
+    },
+    {
+      "fileName": "第983集 清疆伪贡献论_僵尸法统与疆域真相.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第983集 清疆伪贡献论_僵尸法统与疆域真相.md",
+      "originalSize": 2180,
+      "processedSize": 2432
+    },
+    {
+      "fileName": "第984集 爱国有罪_起底夹头榜背后的舆论操纵术.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第984集 爱国有罪_起底夹头榜背后的舆论操纵术.md",
+      "originalSize": 4001,
+      "processedSize": 2882
+    },
+    {
+      "fileName": "第985集 生食危言_舌尖上的风险与文明抉择.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第985集 生食危言_舌尖上的风险与文明抉择.md",
+      "originalSize": 3532,
+      "processedSize": 4560
+    },
+    {
+      "fileName": "第986集 破除历史幻觉_我们像大明不像汉唐.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第986集 破除历史幻觉_我们像大明不像汉唐.md",
+      "originalSize": 1443,
+      "processedSize": 1710
+    },
+    {
+      "fileName": "第987集 礼不下庶人的历史真相_先秦阶级分治实录.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第987集 礼不下庶人的历史真相_先秦阶级分治实录.md",
+      "originalSize": 5260,
+      "processedSize": 4864
+    },
+    {
+      "fileName": "第988集 脚盆人为何敢挑衅_唐朝打了坏样板.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第988集 脚盆人为何敢挑衅_唐朝打了坏样板.md",
+      "originalSize": 2069,
+      "processedSize": 2602
+    },
+    {
+      "fileName": "第989集 营销号为何热衷盛唐美国化_背后藏着不可告人的目的.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第989集 营销号为何热衷盛唐美国化_背后藏着不可告人的目的.md",
+      "originalSize": 2842,
+      "processedSize": 3518
+    },
+    {
+      "fileName": "第990集 血缘与双标_李唐通婚背后的认同博弈.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第990集 血缘与双标_李唐通婚背后的认同博弈.md",
+      "originalSize": 5389,
+      "processedSize": 6340
+    },
+    {
+      "fileName": "第991集 血色契约_清条约中的资源与人口贩卖实录.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第991集 血色契约_清条约中的资源与人口贩卖实录.md",
+      "originalSize": 1559,
+      "processedSize": 2417
+    },
+    {
+      "fileName": "第992集 被踢去啃荒的诸侯_楚国的委屈与野心.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第992集 被踢去啃荒的诸侯_楚国的委屈与野心.md",
+      "originalSize": 5576,
+      "processedSize": 6625
+    },
+    {
+      "fileName": "第993集 西邦旧秽录_粪水漫街三百年.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第993集 西邦旧秽录_粪水漫街三百年.md",
+      "originalSize": 2988,
+      "processedSize": 3327
+    },
+    {
+      "fileName": "第994集 超99文盲率有多可怕_白话文运动竟是扫盲工程.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第994集 超99文盲率有多可怕_白话文运动竟是扫盲工程.md",
+      "originalSize": 6427,
+      "processedSize": 5295
+    },
+    {
+      "fileName": "第995集 跪叩考_从天地君亲师到满清奴化_谁在逼你磕头.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第995集 跪叩考_从天地君亲师到满清奴化_谁在逼你磕头.md",
+      "originalSize": 5051,
+      "processedSize": 6439
+    },
+    {
+      "fileName": "第996集 辫子与镜子_清代形象遗毒与当代文化自信困境.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第996集 辫子与镜子_清代形象遗毒与当代文化自信困境.md",
+      "originalSize": 3643,
+      "processedSize": 3185
+    },
+    {
+      "fileName": "第997集 逆风辨忠魂_危鼎鉴.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第997集 逆风辨忠魂_危鼎鉴.md",
+      "originalSize": 1424,
+      "processedSize": 1782
+    },
+    {
+      "fileName": "第998集 镜头设计精细到秒_影视工业的真相.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第998集 镜头设计精细到秒_影视工业的真相.md",
+      "originalSize": 5768,
+      "processedSize": 5391
+    },
+    {
+      "fileName": "第999集 长平战场白骨为证_原来古人这样计算兵力.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频951-1000集\\第999集 长平战场白骨为证_原来古人这样计算兵力.md",
+      "originalSize": 5949,
+      "processedSize": 5467
+    }
+  ]
+}

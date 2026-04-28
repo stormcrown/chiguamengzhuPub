@@ -1,0 +1,360 @@
+{
+  "timestamp": "2026-04-28T02:51:57.695Z",
+  "allFiles": 50,
+  "totalFiles": 50,
+  "jumpFiles": 0,
+  "successCount": 50,
+  "failCount": 0,
+  "details": [
+    {
+      "fileName": "第901集 学者真相_媒体永远不会告诉你的事.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第901集 学者真相_媒体永远不会告诉你的事.md",
+      "originalSize": 2123,
+      "processedSize": 2724
+    },
+    {
+      "fileName": "第902集 汉民族扩张史_结果太震撼.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第902集 汉民族扩张史_结果太震撼.md",
+      "originalSize": 3575,
+      "processedSize": 4028
+    },
+    {
+      "fileName": "第903集 文化血脉觉醒_父母自信值决定孩子认同度.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第903集 文化血脉觉醒_父母自信值决定孩子认同度.md",
+      "originalSize": 793,
+      "processedSize": 1262
+    },
+    {
+      "fileName": "第904集 大棒或撒糖_古典中国思想驯化的暴力美学.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第904集 大棒或撒糖_古典中国思想驯化的暴力美学.md",
+      "originalSize": 11513,
+      "processedSize": 12514
+    },
+    {
+      "fileName": "第905集 被封印的帝王相_满清得位不正与小人行径.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第905集 被封印的帝王相_满清得位不正与小人行径.md",
+      "originalSize": 10238,
+      "processedSize": 10977
+    },
+    {
+      "fileName": "第906集 简易说易_3分钟略懂周易底层逻辑.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第906集 简易说易_3分钟略懂周易底层逻辑.md",
+      "originalSize": 5819,
+      "processedSize": 4994
+    },
+    {
+      "fileName": "第907集 古人真会玩_宋代房梁贴满花园子.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第907集 古人真会玩_宋代房梁贴满花园子.md",
+      "originalSize": 3369,
+      "processedSize": 4632
+    },
+    {
+      "fileName": "第908集 文明DNA检测报告_西方史书为何经不起推敲.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第908集 文明DNA检测报告_西方史书为何经不起推敲.md",
+      "originalSize": 7032,
+      "processedSize": 7421
+    },
+    {
+      "fileName": "第909集 汉亡真相_经济分化如何摧毁王朝根基.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第909集 汉亡真相_经济分化如何摧毁王朝根基.md",
+      "originalSize": 3785,
+      "processedSize": 4096
+    },
+    {
+      "fileName": "第910集 丛林世界的外交语言_人性真相.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第910集 丛林世界的外交语言_人性真相.md",
+      "originalSize": 1734,
+      "processedSize": 1965
+    },
+    {
+      "fileName": "第911集 东瀛幻影_被矮化的汉唐幻影.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第911集 东瀛幻影_被矮化的汉唐幻影.md",
+      "originalSize": 7004,
+      "processedSize": 7784
+    },
+    {
+      "fileName": "第912集 母系到父系_生育与供养秘密.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第912集 母系到父系_生育与供养秘密.md",
+      "originalSize": 1606,
+      "processedSize": 2051
+    },
+    {
+      "fileName": "第913集 出土文物打脸公知_中国外科超乎想象.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第913集 出土文物打脸公知_中国外科超乎想象.md",
+      "originalSize": 3425,
+      "processedSize": 4337
+    },
+    {
+      "fileName": "第914集 别再用西方标尺量中国历史_考古真相.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第914集 别再用西方标尺量中国历史_考古真相.md",
+      "originalSize": 1764,
+      "processedSize": 2112
+    },
+    {
+      "fileName": "第915集 清条约_晒书三日加撒盐辟邪.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第915集 清条约_晒书三日加撒盐辟邪.md",
+      "originalSize": 1233,
+      "processedSize": 1831
+    },
+    {
+      "fileName": "第916集 女官是干什么的_清为什么没有女官.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第916集 女官是干什么的_清为什么没有女官.md",
+      "originalSize": 13216,
+      "processedSize": 6312
+    },
+    {
+      "fileName": "第917集 如果西方都是抄的_为何我们会落后.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第917集 如果西方都是抄的_为何我们会落后.md",
+      "originalSize": 5337,
+      "processedSize": 6224
+    },
+    {
+      "fileName": "第918集 嫁妆与聘礼_婚姻本质是家族合伙创业.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第918集 嫁妆与聘礼_婚姻本质是家族合伙创业.md",
+      "originalSize": 6313,
+      "processedSize": 8459
+    },
+    {
+      "fileName": "第919集 定义权暗战_谁偷走了中国人的话语权.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第919集 定义权暗战_谁偷走了中国人的话语权.md",
+      "originalSize": 5213,
+      "processedSize": 5152
+    },
+    {
+      "fileName": "第920集 汉服复兴_戳中小清粉痛点.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第920集 汉服复兴_戳中小清粉痛点.md",
+      "originalSize": 885,
+      "processedSize": 1047
+    },
+    {
+      "fileName": "第921集 尘封的教科书_被模糊的历史.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第921集 尘封的教科书_被模糊的历史.md",
+      "originalSize": 1758,
+      "processedSize": 2253
+    },
+    {
+      "fileName": "第922集 弟子规四库全书_争议你知道吗.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第922集 弟子规四库全书_争议你知道吗.md",
+      "originalSize": 338,
+      "processedSize": 589
+    },
+    {
+      "fileName": "第923集 农耕与游牧_女性地位大揭秘.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第923集 农耕与游牧_女性地位大揭秘.md",
+      "originalSize": 3851,
+      "processedSize": 4233
+    },
+    {
+      "fileName": "第924集 文化话语权与文化定义权.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第924集 文化话语权与文化定义权.md",
+      "originalSize": 6982,
+      "processedSize": 7424
+    },
+    {
+      "fileName": "第925集 明代女子旅行图鉴.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第925集 明代女子旅行图鉴.md",
+      "originalSize": 3160,
+      "processedSize": 3784
+    },
+    {
+      "fileName": "第926集 母系社会女性地位_老母亲靠儿子兄弟获权.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第926集 母系社会女性地位_老母亲靠儿子兄弟获权.md",
+      "originalSize": 1906,
+      "processedSize": 2347
+    },
+    {
+      "fileName": "第927集 汉服复兴的基本盘_文化符号还是包装纸.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第927集 汉服复兴的基本盘_文化符号还是包装纸.md",
+      "originalSize": 3331,
+      "processedSize": 4369
+    },
+    {
+      "fileName": "第928集 三十里绝户令_清代海岸线的血色黄昏.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第928集 三十里绝户令_清代海岸线的血色黄昏.md",
+      "originalSize": 5282,
+      "processedSize": 6477
+    },
+    {
+      "fileName": "第929集 清代识字率_不到千分之四.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第929集 清代识字率_不到千分之四.md",
+      "originalSize": 6738,
+      "processedSize": 7223
+    },
+    {
+      "fileName": "第930集 满清根本不是封建王朝_300年奴隶制真相.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第930集 满清根本不是封建王朝_300年奴隶制真相.md",
+      "originalSize": 1550,
+      "processedSize": 2506
+    },
+    {
+      "fileName": "第931集 满蒙联姻_嫁到草原的闺女很难活过40岁.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第931集 满蒙联姻_嫁到草原的闺女很难活过40岁.md",
+      "originalSize": 734,
+      "processedSize": 1070
+    },
+    {
+      "fileName": "第932集 我们需要怎样的文艺工作者.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第932集 我们需要怎样的文艺工作者.md",
+      "originalSize": 1260,
+      "processedSize": 1853
+    },
+    {
+      "fileName": "第933集 盛唐幻象_被刻意制造的因果倒置.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第933集 盛唐幻象_被刻意制造的因果倒置.md",
+      "originalSize": 6096,
+      "processedSize": 7344
+    },
+    {
+      "fileName": "第934集 禁播档案_改开初期百万人才叛逃.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第934集 禁播档案_改开初期百万人才叛逃.md",
+      "originalSize": 5720,
+      "processedSize": 6244
+    },
+    {
+      "fileName": "第935集 空气传播细菌_没有显微镜的古人如何发现.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第935集 空气传播细菌_没有显微镜的古人如何发现.md",
+      "originalSize": 3781,
+      "processedSize": 4270
+    },
+    {
+      "fileName": "第936集 糖衣炮弹如何击垮钢铁巨人_苏联解体.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第936集 糖衣炮弹如何击垮钢铁巨人_苏联解体.md",
+      "originalSize": 6598,
+      "processedSize": 6756
+    },
+    {
+      "fileName": "第937集 节日起源_自然观察与历法智慧.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第937集 节日起源_自然观察与历法智慧.md",
+      "originalSize": 1782,
+      "processedSize": 2380
+    },
+    {
+      "fileName": "第938集 血统纯净度排行榜_父系基因纯到离谱.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第938集 血统纯净度排行榜_父系基因纯到离谱.md",
+      "originalSize": 1495,
+      "processedSize": 2038
+    },
+    {
+      "fileName": "第939集 血缘与边陲_春秋战国的亲疏政治.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第939集 血缘与边陲_春秋战国的亲疏政治.md",
+      "originalSize": 2357,
+      "processedSize": 2650
+    },
+    {
+      "fileName": "第940集 袁崇焕魏忠贤雍正_孰忠孰佞.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第940集 袁崇焕魏忠贤雍正_孰忠孰佞.md",
+      "originalSize": 4504,
+      "processedSize": 5247
+    },
+    {
+      "fileName": "第941集 被烂菜叶子砸千年的奸雄_到底冤不冤.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第941集 被烂菜叶子砸千年的奸雄_到底冤不冤.md",
+      "originalSize": 1358,
+      "processedSize": 2251
+    },
+    {
+      "fileName": "第942集 西方道德为何总在极端间摇摆_羔羊哲学.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第942集 西方道德为何总在极端间摇摆_羔羊哲学.md",
+      "originalSize": 8555,
+      "processedSize": 9515
+    },
+    {
+      "fileName": "第943集 触目惊心_欧洲假发竟是梅毒患者遮羞布.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第943集 触目惊心_欧洲假发竟是梅毒患者遮羞布.md",
+      "originalSize": 1738,
+      "processedSize": 2248
+    },
+    {
+      "fileName": "第944集 读书人不可全信_宋代开始的史书潜规则.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第944集 读书人不可全信_宋代开始的史书潜规则.md",
+      "originalSize": 3309,
+      "processedSize": 4991
+    },
+    {
+      "fileName": "第945集 谁在阻止中国制定预制菜标准_洋爹党双标.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第945集 谁在阻止中国制定预制菜标准_洋爹党双标.md",
+      "originalSize": 10720,
+      "processedSize": 11832
+    },
+    {
+      "fileName": "第946集 辩证观史_破除机械唯物之蔽.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第946集 辩证观史_破除机械唯物之蔽.md",
+      "originalSize": 1558,
+      "processedSize": 2173
+    },
+    {
+      "fileName": "第947集 郡县制两千年困局_为何皇权不下县.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第947集 郡县制两千年困局_为何皇权不下县.md",
+      "originalSize": 3174,
+      "processedSize": 3200
+    },
+    {
+      "fileName": "第948集 青蝇吊客言泉涸_玄蝥封唇舌狱凉.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第948集 青蝇吊客言泉涸_玄蝥封唇舌狱凉.md",
+      "originalSize": 5003,
+      "processedSize": 5898
+    },
+    {
+      "fileName": "第949集 鞭尸清朝的正当理由_从叛徒到反动的全面解剖.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第949集 鞭尸清朝的正当理由_从叛徒到反动的全面解剖.md",
+      "originalSize": 3038,
+      "processedSize": 3537
+    },
+    {
+      "fileName": "第950集 顺治帝死于炮轰还是天花_萨满跳大神揭秘.txt",
+      "success": true,
+      "outputPath": "..\\md\\v4\\历史课系列视频901-950集\\第950集 顺治帝死于炮轰还是天花_萨满跳大神揭秘.md",
+      "originalSize": 2968,
+      "processedSize": 3182
+    }
+  ]
+}
