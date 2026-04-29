@@ -1,283 +1,136 @@
-const fs = require('fs').promises;
+const fs = require('fs');
 const path = require('path');
-const axios = require('axios');
 
-// 配置
-const CONFIG = {
-    inputDir: '../txt/测试文本',      // 输入文件夹
-    outputDir: '../md/测试文本',    // 输出文件夹
-    processedDir: './processed', // 处理完成后移动到此目录
-    minFileSize: 102,        // 最小文件大小(1KB)
-    apiKeyFileName:'deepseek-key.txt',
-    apiUrl: 'https://api.deepseek.com/v1/chat/completions', // Deepseek : https://api.deepseek.com/v1/chat/completions
-    model: 'deepseek-v4-flash',  // deepseek-reasoner
-    delayMs: 1000             // 请求间隔
-};
+/**
+ * 递归获取目录下的所有 .md 文件，并按文件夹和文件名排序
+ * @param {string} dir 当前目录路径
+ * @param {string} rootDir 根目录路径（用于计算相对路径）
+ * @returns {Array} 排序后的文件列表，每个元素包含绝对路径和相对根目录的文件夹名
+ */
+function getSortedMarkdownFiles(dir, rootDir = dir) {
+    let results = [];
+    const items = fs.readdirSync(dir);
 
-// 从key.txt读取API密钥
-async function getApiKey() {
-    try {
-        const keyContent = await fs.readFile(CONFIG.apiKeyFileName, 'utf-8');
-        const apiKey = keyContent.trim().split('\n')[0]; // 取第一行
-        if (!apiKey) {
-            throw new Error('key.txt文件为空');
+    // 分离文件夹和文件
+    const folders = [];
+    const files = [];
+    for (const item of items) {
+        const fullPath = path.join(dir, item);
+        const stat = fs.statSync(fullPath);
+        if (stat.isDirectory()) {
+            folders.push(item);
+        } else if (stat.isFile() && item.toLowerCase().endsWith('.md')) {
+            files.push(item);
         }
-        console.log('✓ 已读取API密钥');
-        return apiKey;
-    } catch (error) {
-        console.error('❌ 读取key.txt失败:', error.message);
-        console.error('请确保key.txt文件存在，且第一行是您的API密钥');
+    }
+    // 按名称排序（中文/英文自然排序）
+    folders.sort((a, b) => a.localeCompare(b, 'zh'));
+    files.sort((a, b) => a.localeCompare(b, 'zh'));
+
+    // 先处理子文件夹
+    for (const folder of folders) {
+        const folderPath = path.join(dir, folder);
+        const nested = getSortedMarkdownFiles(folderPath, rootDir);
+        results = results.concat(nested);
+    }
+
+    // 再处理当前目录下的文件
+    for (const file of files) {
+        const absPath = path.join(dir, file);
+        // 计算相对于根目录的文件夹路径（不包含根目录本身）
+        let relativeFolder = path.relative(rootDir, dir);
+        // 如果是根目录下的文件，relativeFolder 为空字符串
+        results.push({
+            absPath: absPath,
+            folder: relativeFolder,
+            fileName: file
+        });
+    }
+    return results;
+}
+
+/**
+ * 将 Markdown 内容中的所有标题级别提升一级（增加一个 #）
+ * 例如：# 标题 -> ## 标题， ## 标题 -> ### 标题
+ * 注意：只处理行首的标题标记（前面可以有空格，但标准 markdown 通常顶格）
+ * @param {string} content 原始内容
+ * @returns {string} 处理后的内容
+ */
+function demoteHeadings(content) {
+    // 匹配行首任意数量的空白后跟 # 号并至少一个空格，后面是标题文字
+    // 使用正则替换，每检测到一组 #，就在前面加一个 #
+    // 注意：不处理代码块内的标题（简化版，为了精确可能需要复杂解析，但通常够用）
+    return content.replace(/^( *)(#+)( +)/gm, (match, spaces, hashes, after) => {
+        // 增加一个 #
+        return spaces + '#' + hashes + after;
+    });
+}
+
+/**
+ * 合并所有 Markdown 文件，并输出到目标文件
+ * @param {string} targetDir 要扫描的根目录
+ * @param {string} outputFile 输出文件路径
+ */
+function mergeMarkdownFiles(targetDir, outputFile) {
+    // 1. 校验目标目录是否存在
+    if (!fs.existsSync(targetDir)) {
+        console.error(`错误：目录 ${targetDir} 不存在。`);
         process.exit(1);
     }
-}
 
-// 创建必要的文件夹
-async function ensureDirectories() {
-    const dirs = [CONFIG.inputDir, CONFIG.outputDir, CONFIG.processedDir];
-    for (const dir of dirs) {
-        try {
-            await fs.access(dir);
-        } catch {
-            await fs.mkdir(dir, { recursive: true });
-            console.log(`创建文件夹: ${dir}`);
-        }
-    }
-}
-
-// 获取所有txt文件
-async function getTxtFiles() {
-    try {
-        const files = await fs.readdir(CONFIG.inputDir);
-        const txtFiles = files.filter(file =>
-            file.toLowerCase().endsWith('.txt')
-        );
-
-        const validFiles = [];
-        for (const file of txtFiles) {
-            const filePath = path.join(CONFIG.inputDir, file);
-            const stats = await fs.stat(filePath);
-            if (stats.size >= CONFIG.minFileSize) {
-                validFiles.push({
-                    name: file,
-                    path: filePath,
-                    size: stats.size
-                });
-            } else {
-                console.log(`跳过小文件: ${file} (${stats.size} bytes)`);
-            }
-        }
-
-        return validFiles;
-    } catch (error) {
-        console.error('读取文件夹失败:', error);
-        return [];
-    }
-}
-
-// 读取文件内容
-async function readFileContent(filePath) {
-    try {
-        const content = await fs.readFile(filePath, 'utf-8');
-        return content;
-    } catch (error) {
-        console.error(`读取文件失败 ${filePath}:`, error);
-        return null;
-    }
-}
-
-// 调用API处理文本
-async function processTextWithAPI(text, fileName, apiKey) {
-    try {
-        const response = await axios.post(
-            CONFIG.apiUrl,
-            {
-                model: CONFIG.model,
-                messages: [
-                    { role: 'system', content: '整理以下文本为易读段落，修正错误的词汇，但是不要删减内容。在末尾写上备注，改了哪些词汇。' },
-                    { role: 'user', content: text }
-                ],
-
-                reasoning_effort: "high",
-                stream: false,
-                temperature: 0.8,
-                max_tokens: 81920
-            },
-            {
-                headers: {
-                    'Authorization': `Bearer ${apiKey}`,
-                    'Content-Type': 'application/json'
-                },
-                timeout: 60000
-            }
-        );
-
-        const processedText = response.data.choices[0].message.content;
-        return processedText;
-    } catch (error) {
-        console.error(`API调用失败 (${fileName}):`, error.message);
-        if (error.response) {
-            console.error('API错误详情:', error.response.data);
-        }
-        return null;
-    }
-}
-
-// 保存处理后的文件
-async function saveProcessedFile(originalFileName, processedContent) {
-    // 将原文件名中的.txt替换为.md
-    const mdFileName = originalFileName.replace(/\.txt$/i, '.md');
-    const outputPath = path.join(CONFIG.outputDir, mdFileName);
-
-    try {
-        await fs.writeFile(outputPath, processedContent, 'utf-8');
-        console.log(`   保存成功: ${mdFileName}`);
-        return outputPath;
-    } catch (error) {
-        console.error(`   保存文件失败:`, error);
-        return null;
-    }
-}
-
-// 移动原始文件到processed文件夹
-async function moveOriginalFile(filePath, fileName) {
-    const destPath = path.join(CONFIG.processedDir, fileName);
-    try {
-        await fs.rename(filePath, destPath);
-        console.log(`移动原文件: ${fileName} -> ${CONFIG.processedDir}`);
-        return true;
-    } catch (error) {
-        console.error(`移动文件失败 ${fileName}:`, error);
-        return false;
-    }
-}
-
-// 添加延迟
-function delay(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-// 生成处理报告
-async function generateReport(results) {
-    const report = {
-        timestamp: new Date().toISOString(),
-        totalFiles: results.length,
-        successCount: results.filter(r => r.success).length,
-        failCount: results.filter(r => !r.success).length,
-        details: results
-    };
-
-    const reportPath = path.join(CONFIG.outputDir, `report_${Date.now()}.json`);
-    await fs.writeFile(reportPath, JSON.stringify(report, null, 2), 'utf-8');
-    console.log(`\n处理报告已生成: ${reportPath}`);
-
-    // 打印摘要
-    console.log('\n========== 处理摘要 ==========');
-    console.log(`总文件数: ${report.totalFiles}`);
-    console.log(`成功: ${report.successCount}`);
-    console.log(`失败: ${report.failCount}`);
-    console.log('==============================\n');
-}
-
-// 主函数
-async function main() {
-    console.log('开始批量处理TXT文件...\n');
-
-    // 读取API密钥
-    const apiKey = await getApiKey();
-
-    // 创建必要的文件夹
-    await ensureDirectories();
-
-    // 获取所有txt文件
-    const files = await getTxtFiles();
+    // 2. 获取排序后的文件列表（按文件夹和文件排序）
+    const files = getSortedMarkdownFiles(targetDir, targetDir);
 
     if (files.length === 0) {
-        console.log('没有找到符合条件的TXT文件');
+        console.log('未找到任何 .md 文件。');
         return;
     }
 
-    console.log(`找到 ${files.length} 个需要处理的文件\n`);
+    // 3. 开始合并
+    let mergedContent = '';
+    let lastFolder = null;
 
-    const results = [];
-
-    // 逐个处理文件
-    for (let i = 0; i < files.length; i++) {
-        const file = files[i];
-        console.log(`\n[${i + 1}/${files.length}] 处理文件: ${file.name} (${(file.size / 1024).toFixed(2)} KB)`);
+    for (const item of files) {
+        const { absPath, folder, fileName } = item;
+        // 如果文件夹发生变化，添加文件夹标题（一级标题）
+        if (folder !== lastFolder) {
+            if (lastFolder !== null) {
+                // 不同文件夹之间添加换行分隔
+                mergedContent += '\n\n';
+            }
+            // 文件夹名作为一级标题（如果 folder 为空字符串，表示根目录，不添加标题？但也可添加"根目录"标题，根据需求选择）
+            // 这里为了保持树状结构，仅当 folder 非空时添加标题
+            if (folder) {
+                // 显示相对路径作为标题，例如 "子文件夹" 或 "子文件夹/孙文件夹"
+                mergedContent += `# ${folder}\n\n`;
+            } else {
+                // 根目录下的文件，可以不加额外标题，或者加一个"根目录"标题，这里选择不加
+                // 为了清晰，可选添加一个 "# 根目录" 注释，但保持简洁此处跳过
+            }
+            lastFolder = folder;
+        }
 
         // 读取文件内容
-        const content = await readFileContent(file.path);
-        if (!content) {
-            results.push({
-                fileName: file.name,
-                success: false,
-                error: '读取文件失败'
-            });
-            continue;
-        }
+        let content = fs.readFileSync(absPath, 'utf8');
+        // 标题降级（每个标题多加一个 #）
+        content = demoteHeadings(content);
 
-        // 检查内容是否为空
-        if (!content.trim()) {
-            console.log(`文件内容为空: ${file.name}`);
-            results.push({
-                fileName: file.name,
-                success: false,
-                error: '文件内容为空'
-            });
-            continue;
-        }
-
-        // 调用API处理
-        console.log('正在调用API处理文本...');
-        const processedContent = await processTextWithAPI(content, file.name, apiKey);
-
-        if (!processedContent) {
-            results.push({
-                fileName: file.name,
-                success: false,
-                error: 'API处理失败'
-            });
-            continue;
-        }
-
-        // 保存处理后的文件
-        const savedPath = await saveProcessedFile(file.name, '# '+file.name.replace(/\.txt$/i, '')+'\n\n'+processedContent);
-
-        if (savedPath) {
-            // 移动原文件到processed文件夹
-         //   await moveOriginalFile(file.path, file.name);
-
-            results.push({
-                fileName: file.name,
-                success: true,
-                outputPath: savedPath,
-                originalSize: file.size,
-                processedSize: Buffer.byteLength(processedContent, 'utf-8')
-            });
-
-            console.log(`✓ 处理完成: ${file.name}`);
-        } else {
-            results.push({
-                fileName: file.name,
-                success: false,
-                error: '保存文件失败'
-            });
-        }
-
-        // 如果不是最后一个文件，添加延迟
-        if (i < files.length - 1) {
-            console.log(`等待 ${CONFIG.delayMs}ms 后处理下一个文件...`);
-            await delay(CONFIG.delayMs);
-        }
+        // 添加文件分隔标记（可选，方便阅读）
+        // 可以添加注释说明该文件来源，但不加也符合常规合并需求
+        mergedContent += `\n## ${fileName}\n\n`;
+        mergedContent += content;
+        mergedContent += '\n\n';
     }
 
-    // 生成处理报告
-    await generateReport(results);
-
-    console.log('所有文件处理完毕！');
+    // 4. 写入输出文件
+    fs.writeFileSync(outputFile, mergedContent, 'utf8');
+    console.log(`合并完成！共处理 ${files.length} 个文件，输出至：${outputFile}`);
 }
 
-// 运行主函数
-main().catch(error => {
-    console.error('程序运行出错:', error);
-});
+// ========== 使用示例 ==========
+// 请根据实际需要修改下面的路径
+const targetDirectory = '../docs/md/v4';   // 要扫描的根文件夹
+const outputMarkdownFile = './merged.md';      // 合并后的输出文件
+
+// 执行合并
+mergeMarkdownFiles(targetDirectory, outputMarkdownFile);
