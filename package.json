@@ -12,6 +12,10 @@
   },
   "dependencies": {
     "@honkit/asciidoc": "^6.1.7",
-    "axios": "^1.15.2"
+    "accordion": "^3.0.2",
+    "axios": "^1.15.2",
+    "gitbook-plugin-custom-js-css": "^0.0.1",
+    "honkit-plugin-add-giscus": "^0.0.1",
+    "honkit-plugin-elasticsearch": "^0.4.1"
   }
 }

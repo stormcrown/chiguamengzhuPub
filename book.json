@@ -10,12 +10,6 @@
       "maxLevel": 3,
       "minLevel": 1,
       "title": "目录"
-    },
-    "epub": {
-      "version": 2,
-      "tocDepth": 3,
-      "includeToc": true,
-      "epub2toc": true
     }
   },
   "styles": {
@@ -29,7 +23,28 @@
   "plugins": [
     "-search",
     "-lunr",
-    "-highlight"
-  ]
+    "-highlight",
+    "honkit-plugin-elasticsearch","gitbook-plugin-custom-js-css",
+    "honkit-plugin-add-giscus"
+
+  ],
+  "pluginsConfig": {
+    "add-giscus": {
+      "repo": "stormcrown/chiguamengzhuPub",
+      "repoId": "R_kgDOSKf6Zg",
+      "category": "General",
+      "categoryId": "DIC_kwDOSKf6Zs4C77bt",
+
+
+      "mapping": "title",
+      "strict": "0",
+      "reactionsEnabled": "1",
+      "emitMetadata": "0",
+      "inputPosition": "top",
+      "lang": "zh-CN",
+      "loading": "lazy",
+      "debug": false
+    }
+  }
 
 }

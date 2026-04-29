@@ -15,3 +15,20 @@
     - [calibre](https://calibre-ebook.com/download)
 
 
+```html
+<script src="https://giscus.app/client.js"
+        data-repo="stormcrown/chiguamengzhuPub"
+        data-repo-id="R_kgDOSKf6Zg"
+        data-category="General"
+        data-category-id="DIC_kwDOSKf6Zs4C77bt"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
+```
